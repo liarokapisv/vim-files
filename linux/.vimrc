@@ -2,8 +2,8 @@ set nocompatible              " be iMproved, required
 filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
-set rtp+=~/vim-files/linux/vimfiles/bundle/Vundle.vim/
-call vundle#begin('~/vim-files/linux/vimfiles/bundle/')
+set rtp+=~/linux/vimfiles/bundle/Vundle.vim/
+call vundle#begin('~/linux/vimfiles/bundle/')
 " alternatively, pass a path where Vundle should install plugins
 "call vundle#begin('~/some/path/here')
 
