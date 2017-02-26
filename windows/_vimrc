@@ -42,8 +42,6 @@ set path=./**
 set wildmode=longest,list,full
 set wildmenu
 
-autocmd VimEnter * if exists(":NERDTree") | :NERDTree | endif
-
 map <leader>q :bp<bar>sp<bar>bn<bar>bd<CR>
 
 nnoremap <leader>c :silent! !ctags -R . <CR>
